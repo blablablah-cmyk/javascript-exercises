@@ -15,7 +15,7 @@ describe('add', () => {
 });
 
 describe('subtract', () => {
-  test.skip('subtracts numbers', () => {
+  test('subtracts numbers', () => {
     expect(calculator.subtract(10, 4)).toBe(6);
   });
 
@@ -29,15 +29,15 @@ describe('subtract', () => {
 });
 
 describe('sum', () => {
-  test.skip('computes the sum of an empty array', () => {
+  test('computes the sum of an empty array', () => {
     expect(calculator.sum([])).toBe(0);
   });
 
-  test.skip('computes the sum of an array of one number', () => {
+  test('computes the sum of an array of one number', () => {
     expect(calculator.sum([7])).toBe(7);
   });
 
-  test.skip('computes the sum of an array of two numbers', () => {
+  test('computes the sum of an array of two numbers', () => {
     expect(calculator.sum([7, 11])).toBe(18);
   });
 
@@ -47,17 +47,17 @@ describe('sum', () => {
 });
 
 describe('multiply', () => {
-  test.skip('multiplies two numbers', () => {
+  test('multiplies two numbers', () => {
     expect(calculator.multiply([2, 4])).toBe(8);
   });
 
-  test.skip('multiplies several numbers', () => {
+  test('multiplies several numbers', () => {
     expect(calculator.multiply([2, 4, 6, 8, 10, 12, 14])).toBe(645120);
   });
 });
 
 describe('power', () => {
-  test.skip('raises one number to the power of another number', () => {
+  test('raises one number to the power of another number', () => {
     expect(calculator.power(4, 3)).toBe(64); // 4 to third power is 64
   });
 
@@ -79,7 +79,7 @@ describe('factorial', () => {
     expect(calculator.factorial(2)).toBe(2);
   });
 
-  test.skip('computes the factorial of 5', () => {
+  test('computes the factorial of 5', () => {
     expect(calculator.factorial(5)).toBe(120);
   });
 
